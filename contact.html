@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <p><strong>Mobile:</strong> (000) 123 4567</p>
-    <p><strong>Like Us on</strong></p>
-    <p>
-        <a href="https://www.instagram.com/"><img src="image\fb.png"></a>
-        <a href="https://www.Facebook.com/"><img src="image\ins.png"></a>
-    </p>
-    <p><a href="index.html">Back to homepage</a></p>
+    <h1 class="text-center text-3xl font-bold text-purple-700 m-8">Contact Us</h1>
+    
+    <div class="text-2xl font-bold m-8 text-purple-300">Mobile:</div>
+    <div class="text-2xl font-bold ml-8">(000) 123 4567</div>
+    
+    <div class="text-2xl m-8">
+        <div class="font-bold text-purple-300">Like Us on</div>
+        <div class="flex mt-4 space-x-4">
+            <a href="https://www.instagram.com/"><img class="w-16" src="image\fb.png"></a>
+            <a href="https://www.Facebook.com/"><img class="w-16" src="image\ins.png"></a>
+            <a href="https://www.twitter.com/"><img class="w-16" src="image\twitter.png"></a>
+        </div>
+    </div>
+
+    <p class="m-8 underline font-bold"><a href="index.html">Back to homepage</a></p>
 </body>
 </html>
